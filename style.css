@@ -1,0 +1,21 @@
+.body {
+    padding: 20px;
+    background-image: url('https://th.bing.com/th/id/OIP.etDFqbwjj304_gVLFbm-ogHaEo?w=251&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.form-group__label,
+.title {
+    color: whitesmoke;
+}
+
+.card-title {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}

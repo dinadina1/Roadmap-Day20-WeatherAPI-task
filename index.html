@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Weather App</title>
+    <link rel="icon" href="https://www.bing.com/th?id=OIP.dwuAXVyZx5MTZsLoTojyUQHaHa&w=150&h=150&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+    <div class="container">
+        <h1 class="mt-4 mb-4 title" id="title">Check Weather</h1>
+
+        <div class="form-group">
+            <label for="cityInput" class="form-group__label">Enter City:</label>
+            <input type="text" class="form-control" id="cityInput" placeholder="E.g., Chennai">
+        </div>
+
+        <button id="searchBtn" class="btn btn-primary">Search</button>
+
+        <div id="weatherCard" class="card" style="display: none;">
+            <div class="card-body">
+                <h5 class="card-title">Weather Details<span id="card-city-name"></span></h5>
+                <div id="weatherDetails"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+</body>
+
+</html>
